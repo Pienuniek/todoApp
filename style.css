@@ -1,0 +1,93 @@
+*, 
+*::before, 
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color: lightcyan;
+    margin: 0, auto;
+    padding: 20px;
+    text-align: center;
+}
+.title{
+    background-color: cyan;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:azure;
+    text-transform: uppercase;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-bottom: 3px solid rgba(0,0,0, 0.4)
+}
+.todo-container {
+    background-color: cyan;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.sub-title{
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgba(0,0,0, 0.4);
+}
+.todo-list {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.todo {
+    background-color: rgba(0,0,0,0.2);
+    border-bottom: 3px solid rgba(0,0,0, 0.4);
+    border-radius: 5px;
+    color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo i {
+    background-color: cyan;
+    color: rgba(0,0,0, 0.5);
+    cursor: pointer;
+    padding: 8px;
+}
+input {
+    padding: 8px 30px;
+    border: none;
+    border-radius: 2.5px;
+}
+label{
+    color: rgba(0,0,0, 0.4);
+}
+input:focus {
+    outline: none;
+}
+.add {
+    padding: 4px 30px;
+    font-family: inherit;
+}
+.add-btn{
+    background-color: rgba(0,0,0,0.2);
+    color: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 4px 30px;
+    font-family: inherit;
+}
+.add-btn:hover {
+    cursor: pointer;
+}
+.add-btn:focus {
+    outline: none;
+}
+small {
+    color: rgba(0,0,0, 0.4);
+}

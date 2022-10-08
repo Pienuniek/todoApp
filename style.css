@@ -41,7 +41,7 @@ body{
     list-style-type: none;
     margin-bottom: 20px;
 }
-.todo {
+.todo-box {
     background-color: rgba(0,0,0,0.2);
     border-bottom: 3px solid rgba(0,0,0, 0.4);
     border-radius: 5px;

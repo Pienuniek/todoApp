@@ -7,7 +7,7 @@ const getData = async function() {
         headers:{"Content-Type": "application/json"}
 })
     const data = await res.json()
-    data.forEach(generateTemplate)
+     return data.forEach(generateTodo)
 }
 
 
